@@ -1,0 +1,47 @@
+.home-header-wrap {
+    width: 100%;
+    height: 384px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    /* buscar  */
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    position: relative;
+    background-color: #081c24;
+    background-image: url(./imagenes/batman.jpg);
+
+    /* ======= elemento before pseudo whte con transparencia  */
+    /* text-align: center;
+    position: relative; */
+    /* probar sin el position: */
+}
+.home-header-wrap::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: hsla(0, 0%, 97%, 0.7);
+}
+.home-header-title {
+    font-weight: 500;
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: #081c24;
+    margin: 0;
+    position: relative;
+    text-align: center;
+    flex-shrink: inherit;
+}
+@media (max-width: 768px) {
+    .home-header-wrap {
+        height: 200px;
+    }
+    .home-header-title {
+        font-size: 22px;
+    }
+}

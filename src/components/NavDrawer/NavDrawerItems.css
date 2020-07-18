@@ -1,0 +1,35 @@
+.nav-drawer-item {
+    display: inline-block;
+    text-align: center;
+    width: 50%;
+    height: 100px;
+    border-bottom: 1px solid #f8f8f8;
+    border-left: 1px solid #f8f8f8;
+}
+
+.nav-drawer-link {
+    text-decoration: none;
+}
+.nav-link-drawer-wrap {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    justify-content: center;
+    height: 100%;
+    font-size: 0.7em;
+    font-family: Roboto, sans-serif;
+    color: #081c24;
+    align-items: center;
+}
+
+.nav-link-drawer-wrap img {
+    width: 20px;
+    height: 20px;
+    margin-bottom: 5px;
+}
+/* .nav-drawer-link {
+    text-decoration: none;
+    font-family: Roboto, sans-serif;
+ background: #f8f8f8; 
+ color: #081c24;
+}  */

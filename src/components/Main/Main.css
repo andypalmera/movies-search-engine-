@@ -1,0 +1,36 @@
+.main {
+    width: calc(100% - 95px);
+    /* +++++ que es  */
+    padding: 75px 0 0;
+    /* margin-left: 95px; */
+    background-color: #fff;
+    height: 100%;
+    top: 0px;
+}
+.home {
+    position: relative;
+    left: 95px;
+    background: #f8f8f8;
+}
+.home-header {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+@media (max-width: 768px) {
+    .main {
+        /* position: relative; */
+        /* left: 0;
+        width: calc(100%); */
+    }
+    .home {
+        left: 0;
+        position: absolute;
+        top: 50px;
+    }
+    .home-header {
+        display: flex;
+        flex-direction: column;
+    }
+}

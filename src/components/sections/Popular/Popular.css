@@ -1,0 +1,41 @@
+.main {
+    width: calc(100% - 95px);
+    /* +++++ que es  */
+    padding: 75px 0 0;
+    /* margin-left: 95px; */
+    background-color: #fff;
+    height: 100%;
+}
+.home {
+    position: relative;
+    left: 95px;
+    background: #f8f8f8;
+}
+.home-header {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.movies-nav {
+    padding: 25px;
+    text-align: center;
+}
+.movies-nav button {
+    display: inline-block;
+    border: 1px solid #081c24;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+    color: rgba(8, 28, 36, 0.5);
+    background: transparent;
+    outline: none;
+    padding: 5px 10px;
+    transition: background 0.5s ease, color 0.5s ease;
+}
+.movies-nav button:hover {
+    background: #081c24;
+    color: white;
+    transition: background 0.5s ease, color 0.5s ease;
+}

@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+    /*+++++ por que colocarselo a todo el documento? afecta a todas las cajas?  */
+}
+
+body,
+html {
+    height: 100%;
+    /*+++++ por que colocarle 100%? en que influye?  */
+}
+
+body {
+    font-family: Roboto, sans-serif;
+    line-height: 1.6;
+    /* el que viene por defecto es 1.5  */
+    background: #f8f8f8;
+    color: #081c24;
+    margin: 0;
+}
+
+/* ==================== NAV ================================ */
+
+.nav {
+    position: fixed;
+    top: 75px;
+    left: 0;
+    background: #fff;
+    width: 95px;
+    display: block;
+    /*+++++ PENDIENTE: tenia un z-index: 10  */
+}
+
+@media (max-width: 768px) {
+    .nav {
+        display: none;
+    }
+}

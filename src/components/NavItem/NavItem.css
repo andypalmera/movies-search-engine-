@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+    /*+++++ por que colocarselo a todo el documento? afecta a todas las cajas?  */
+}
+
+body,
+html {
+    height: 100%;
+    /*+++++ por que colocarle 100%? en que influye?  */
+}
+
+body {
+    font-family: Roboto, sans-serif;
+    line-height: 1.6;
+    /* el que viene por defecto es 1.5  */
+    background: #f8f8f8;
+    color: #081c24;
+    margin: 0;
+}
+
+.nav-item {
+    box-sizing: border-box;
+    width: 95px;
+    height: 95px;
+    padding: 10px;
+    border-bottom: 1px solid #f8f8f8;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
+.nav-link {
+    font-size: 9px;
+    text-decoration: none;
+    display: flex;
+    /* flex-wrap: wrap;  */
+    /* no se que hace en este caso  */
+    align-items: center;
+    justify-content: center;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    color: rgba(8, 28, 36, 0.7);
+    /* tiene tambien un transition y un cursor pointer y un position relative!!!! */
+}
+
+.nav-link-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgba(8, 28, 36, 0.7);
+}
+
+.nav-link-wrap img {
+    width: 20px;
+    height: 20px;
+    margin-bottom: 5px;
+    /* PEDIENTE: ACA IBA UN FILL Y UN TRANSITION  */
+}
+.nav-link-wrap span {
+    /* display: block;
+    width: 100%; */
+    /* 100% de que ?  */
+
+    /* text-decoration: none; */
+}

@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+    /*+++++ por que colocarselo a todo el documento? afecta a todas las cajas?  */
+}
+
+body,
+html {
+    height: 100%;
+    /*+++++ por que colocarle 100%? en que influye?  */
+}
+
+body {
+}
+
+.nav-list {
+    list-style: none;
+    padding: 0;
+    /* el padding lo va a crear la medida del nav-link (<a>)  */
+    margin: 0;
+    text-align: center;
+    /* va a tomar el spam con el titulo y lo va a colocar en el centro sin necesidad de flex  */
+    width: 95px;
+    /* position: relative;
+    display: block;
+    width: 100%;
+    border-top: 0;
+    top: 0; */
+}

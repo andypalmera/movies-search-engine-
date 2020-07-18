@@ -1,0 +1,27 @@
+.movies-header {
+    padding: 23px 23px 0px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.movies__title {
+    font-size: 18px;
+    line-height: 18px;
+    color: #081c24;
+    font-weight: 300;
+}
+
+.movies-link {
+    font-size: 12px;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    color: rgba(8, 28, 36, 0.5);
+    text-decoration: none;
+    /* tiene un transition: ; */
+}
+@media (max-width: 768px) {
+    .movies-header {
+        padding: 20px 10px;
+    }
+}

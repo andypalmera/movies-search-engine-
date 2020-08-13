@@ -17,7 +17,11 @@ const Modal = (props) => {
                     }}
                 >
                     <div className="image-container">
-                        <img src={props.modalURLImage} alt={props.modalTitle + 'poster'} className="movies-item-poster-image" />
+                        <img
+                            src={`https://image.tmdb.org/t/p/w185${props.modalURLImage}`}
+                            alt={props.modalTitle + 'poster'}
+                            className="movies-item-poster-image"
+                        />
                     </div>
                     <h2 className="title-modal">{props.modalTitle}</h2>
                     <div className="exit-modal" onClick={props.hideModal}>

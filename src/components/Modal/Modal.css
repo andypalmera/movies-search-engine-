@@ -58,6 +58,8 @@
 }
 .image-container {
     margin: 30px;
+    position: relative;
+    top: 100px;
 }
 .title-modal {
     margin-top: 100px;

@@ -111,11 +111,11 @@ class Popular extends React.Component {
             });
         }
     };
-    showModal = (e, backdrop, overview, id, gender, date) => {
+    showModal = (e, backdrop, overview, id, gender, date, image) => {
         this.setState({
             showModal: true,
             modalTitle: e.target.alt,
-            modalURLImage: e.target.src,
+            modalURLImage: image,
             modalBackdrop: backdrop,
             modalOverview: overview,
             modalId: id,
